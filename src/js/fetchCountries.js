@@ -10,9 +10,4 @@ export default function fetchCountries(name) {
         }
         return response.json();
     })
-    .then(data => {
-        if (data.length > 10) {
-            console.log(5)
-        }
-    });
 };

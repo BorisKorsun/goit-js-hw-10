@@ -9,6 +9,7 @@ const refs = {
 };
 
 fetchCountries('Ukraine')
+.then(console.log)
 
 refs.inputRef.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
